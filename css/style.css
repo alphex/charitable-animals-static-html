@@ -1,0 +1,131 @@
+body { 
+    padding: 30px;
+}
+
+div.row {
+    padding: 30px;
+}
+
+div.center {
+    margin: auto;
+    text-align: center;
+}
+
+div.columns {
+
+}
+
+hr.yellow {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #F7B869;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0;
+    width: 70%;
+}
+
+div.art {
+    text-align: center;
+    padding: 30px; 
+}
+
+.fouricons {
+    width: 50%;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 75%;
+    height: auto;    
+}
+
+.bluebox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bluebox p.citation {
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    font-size: .8em;
+    padding: 30px;
+    width: 60%;
+}
+
+.bluebox,
+.bluebox h2,
+.bluebox h3 {
+    background-color: #0AAFDA;
+    color: #fff;
+}
+
+h1,h2,h3,h4 {
+    clear:both;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.lineup {
+    margin-bottom: 30px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.lineup div {
+    line-height: 1.5em;
+    display: inline;
+    padding:10px;
+    background-image:url('../img/orange_dot.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5px;
+    padding-left: 15px;    
+}
+
+.lineup div.first {
+    background:none;
+}
+
+div.bluetext h1,
+div.bluetext h2,
+div.bluetext h3,
+div.bluetext h4,
+div.bluetext p {
+    color:#0aafda;
+}
+
+div.bluetext .lineup {
+    color: #0aafda;
+}
+
+
+
+#topborder, #bottomborder, #leftborder, #rightborder {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#leftborder, #rightborder {
+        background: #E54046;
+		top: 0; bottom: 0;
+		width: 30px;
+		}
+		#leftborder { left: 0; }
+		#rightborder { right: 0; }
+		
+	#topborder, #bottomborder {
+        background: #0AAFDA;
+		left: 0; right: 0;
+		height: 30px;
+		}
+		#topborder { top: 0; }
+		#bottomborder { bottom: 0; }
