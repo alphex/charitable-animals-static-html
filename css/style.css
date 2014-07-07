@@ -178,17 +178,147 @@ h1 span.blue { color: #18AFDA; }
         display: none;
         visibility: hidden;
     }
+    
+    img.desktoplogo {
+        width:75%;
+    }
+    
     div.row {
         padding: 30px;
     }
+    
+    .logo {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .logofloat {
+        text-align: left;
+        width: 60%
+    }
+    
+    .logocontact {
+        text-align: left;
+        margin-right: 50px;
+        width: 40%;
+        padding-right: 50px;
+    }
+    
+    .logocontact h3 {
+        text-align: left;
+        padding: 0px;
+    }
+    
+    .logocontact p {
+        font-size: 1rem;
+    }
 }
 
+@media (min-width: 769px) {
+    .logofloat {
+        text-align: left;
+        width: 75%
+    }
+    
+    .logocontact {
+        text-align: left;
+        margin-right: 50px;
+        width: 25%;
+        padding-right: 50px;
+    }
+}
+
+
 @media (max-width: 320px) {
+    body { padding: 0px; padding-top:20px; }
     img.desktoplogo {
         display: none;
         visibility: hidden;
     }
+    
     .row {
         padding:10px;
     }
+
+    .logocontact h3 {
+        
+        padding: 0px;
+        margin: 0px;
+        margin-top: 30px;
+    }    
+    
+    .logo {
+    
+        display: block;
+    }
+    
+    .row.fullwidth {
+        width: 320px;
+        margin:0px;
+        padding:10px;
+    }
+
+    .lineup {
+        margin-bottom: 30px;
+        margin: auto;
+        width: 90%;
+        text-align: left;
+    }
+
+    .lineup div {
+        line-height: 1rem;
+        display: block;
+        padding:10px;
+        background-image:url('../img/orange_dot.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 5px;
+        padding-left: 15px;    
+    }
+
+    .lineup div.first {
+        background-image:url('../img/orange_dot.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 5px;
+    }
+    
+    div.art {
+        text-align: center;
+        padding: 10px; 
+    }
+
+    div.art img {
+        padding: 10px;
+        width: 200px;
+        height: auto;
+    }
+
+    .fouricons {
+        width: 95% !important;
+    }
+
+    
+    #topborder, #bottomborder, #leftborder, #rightborder {
+        background: #a5ebff;
+        position: fixed;
+        }
+        #leftborder, #rightborder {
+            background: #E54046;
+            top: 0; bottom: 0;
+            width: 10px;
+            }
+            #leftborder { left: 0; }
+            #rightborder { right: 0; }
+
+        #topborder, #bottomborder {
+            background: #0AAFDA;
+            left: 0; right: 0;
+            height: 10px;
+            }
+            #topborder { top: 0; }
+            #bottomborder { bottom: 0; }
+    
 }
