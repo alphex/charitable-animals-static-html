@@ -2,8 +2,12 @@ body {
     padding: 30px;
 }
 
-div.row {
-    padding: 30px;
+p {
+    font-size: 1.2rem;
+}
+
+h1 {
+    letter-spacing: .2rem;
 }
 
 div.center {
@@ -33,15 +37,21 @@ div.art {
     padding: 30px; 
 }
 
+div.art img {
+    padding:30px;
+    width: 150px;
+    height: auto;
+}
+
 .fouricons {
-    width: 50%;
+    width: 80% !important;
 }
 
 .logo {
     text-align: center;
 }
 
-.logo img {
+.logo svg {
     width: 75%;
     height: auto;    
 }
@@ -61,10 +71,19 @@ div.art {
 }
 
 .bluebox,
+.bluebox h1,
 .bluebox h2,
-.bluebox h3 {
+.bluebox h3,
+.bluebox h4 {
     background-color: #0AAFDA;
     color: #fff;
+}
+
+.bluebox h1,
+.bluetext h1 {
+    background-image: url('../img/hline.png');
+    background-repeat: repeat-x;
+    background-position: center;
 }
 
 h1,h2,h3,h4 {
@@ -72,6 +91,16 @@ h1,h2,h3,h4 {
     text-align: center;
     margin: auto;
     padding: 10px;
+}
+
+.bluebox h1 span.nobg {
+    background-color: #0AAFDA;
+    padding: 20px;
+}
+
+.bluetext h1 span.nobg {
+    background-color: #fff;
+    padding: 20px;
 }
 
 .lineup {
@@ -108,7 +137,20 @@ div.bluetext .lineup {
     color: #0aafda;
 }
 
+h1,h2,h3,h4 {
+    font-family: 'KaufmannBT-Bold', Sans-Serif;
+}
 
+h1 span.red,
+h2 span.red,
+h3 span.red { color: #E54047; }
+
+h1 span.yellow { color: #F9B668; }
+h1 span.blue { color: #18AFDA; }
+
+.row.fullwidth {
+    max-width: 3000px;
+}
 
 #topborder, #bottomborder, #leftborder, #rightborder {
 	background: #a5ebff;
@@ -129,3 +171,24 @@ div.bluetext .lineup {
 		}
 		#topborder { top: 0; }
 		#bottomborder { bottom: 0; }
+
+
+@media (min-width: 321px) {
+    img.mobilelogo {
+        display: none;
+        visibility: hidden;
+    }
+    div.row {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    img.desktoplogo {
+        display: none;
+        visibility: hidden;
+    }
+    .row {
+        padding:10px;
+    }
+}
