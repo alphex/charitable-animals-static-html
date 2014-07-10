@@ -152,6 +152,18 @@ h1 span.blue { color: #18AFDA; }
     max-width: 3000px;
 }
 
+img.headshot {
+    width: 200px;
+    height: auto;
+    float:left;
+    margin-right: 10px;
+}
+
+div.bio {
+    clear:both;
+    min-height: 300px;
+}
+
 #topborder, #bottomborder, #leftborder, #rightborder {
 	background: #a5ebff;
 	position: fixed;
@@ -300,6 +312,12 @@ h1 span.blue { color: #18AFDA; }
         width: 95% !important;
     }
 
+    img.headshot {
+        width: 320px;
+        height: auto;
+        float:none;
+        margin-bottom: 10px;
+    }    
     
     #topborder, #bottomborder, #leftborder, #rightborder {
         background: #a5ebff;
