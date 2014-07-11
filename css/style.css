@@ -192,11 +192,7 @@ div.bio {
 .orderform {
     border-top: 3px solid #E54047;
     padding-top: 20px;
-    padding-left: 40px; 
-    background-image: url("../img/pdficon.png");
-    background-repeat: no-repeat;
-    background-position: left 15px;
-    background-size: 35px;
+
 }
 
 @media (min-width: 321px) {
