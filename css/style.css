@@ -125,6 +125,24 @@ h1,h2,h3,h4 {
     background:none;
 }
 
+.whatwedo {
+    margin-bottom: 30px;
+    margin: auto;
+    width: 60%;
+    text-align: left;
+}
+
+.whatwedo div {
+    line-height: 1.5em;
+    padding:5px;
+    background-image:url('../img/orange_dot.png');
+    background-repeat: no-repeat;
+    background-position: left 2px top 15px;
+    background-size: 5px;
+    padding-left: 15px;
+    color: #0AAFDA;
+}
+
 div.bluetext h1,
 div.bluetext h2,
 div.bluetext h3,
