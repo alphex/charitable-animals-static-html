@@ -125,12 +125,32 @@ h1,h2,h3,h4 {
     background:none;
 }
 
+.whatwedo {
+    margin-bottom: 30px;
+    margin: auto;
+    width: 60%;
+    text-align: left;
+}
+
+.whatwedo div {
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    padding:5px;
+    background-image:url('../img/orange_dot.png');
+    background-repeat: no-repeat;
+    background-position: left 2px top 17px;
+    background-size: 5px;
+    padding-left: 15px;
+    color: #0AAFDA;
+}
+
 div.bluetext h1,
 div.bluetext h2,
 div.bluetext h3,
 div.bluetext h4,
 div.bluetext p {
     color:#0aafda;
+    
 }
 
 div.bluetext .lineup {
@@ -144,12 +164,28 @@ h1,h2,h3,h4 {
 h1 span.red,
 h2 span.red,
 h3 span.red { color: #E54047; }
-
 h1 span.yellow { color: #F9B668; }
 h1 span.blue { color: #18AFDA; }
 
+span.red { color: #E54047; }
+span.yellow { color: #F9B668; }
+span.blue { color: #18AFDA; }
+
+
 .row.fullwidth {
     max-width: 3000px;
+}
+
+img.headshot {
+    width: 200px;
+    height: auto;
+    float:left;
+    margin-right: 10px;
+}
+
+div.bio {
+    clear:both;
+    min-height: 300px;
 }
 
 #topborder, #bottomborder, #leftborder, #rightborder {
@@ -172,6 +208,12 @@ h1 span.blue { color: #18AFDA; }
 		#topborder { top: 0; }
 		#bottomborder { bottom: 0; }
 
+
+.orderform {
+    border-top: 3px solid #E54047;
+    padding-top: 20px;
+
+}
 
 @media (min-width: 321px) {
     img.mobilelogo {
@@ -209,6 +251,7 @@ h1 span.blue { color: #18AFDA; }
     .logocontact h3 {
         text-align: left;
         padding: 0px;
+        color:#E54047;
     }
     
     .logocontact p {
@@ -292,7 +335,7 @@ h1 span.blue { color: #18AFDA; }
 
     div.art img {
         padding: 10px;
-        width: 200px;
+        width: 55px;
         height: auto;
     }
 
@@ -300,6 +343,12 @@ h1 span.blue { color: #18AFDA; }
         width: 95% !important;
     }
 
+    img.headshot {
+        width: 320px;
+        height: auto;
+        float:none;
+        margin-bottom: 10px;
+    }    
     
     #topborder, #bottomborder, #leftborder, #rightborder {
         background: #a5ebff;
