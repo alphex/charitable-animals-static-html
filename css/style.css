@@ -133,11 +133,12 @@ h1,h2,h3,h4 {
 }
 
 .whatwedo div {
+    font-size: 1.2rem;
     line-height: 1.5em;
     padding:5px;
     background-image:url('../img/orange_dot.png');
     background-repeat: no-repeat;
-    background-position: left 2px top 15px;
+    background-position: left 2px top 17px;
     background-size: 5px;
     padding-left: 15px;
     color: #0AAFDA;
